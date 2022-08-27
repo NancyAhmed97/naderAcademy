@@ -1,0 +1,16 @@
+.nav{
+    position: absolute;
+    top: 12%;
+    z-index: 5555555555555555;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+}
+.nav_link{
+    background-color: #E9A327;
+    padding: 7px 10px;
+    display: flex;
+    color:#fff;
+    justify-content: space-around;
+    cursor: pointer;
+}

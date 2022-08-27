@@ -1,0 +1,62 @@
+.header_container{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.bg_image_one{
+    width: 700px;
+    position: absolute;
+    top: -20%;
+    left: 0;
+
+}
+.landingPage_img{
+    width: 450px ;
+    align-self: center;
+    margin-top: -7%;
+}
+.bg_image_two{
+position: absolute;
+bottom: 50px;}
+.Layer{
+    width: 350px;
+    margin-top: 35px;
+}
+@media only screen and (max-width: 768px) {
+    .bg_image_one{
+    display: none !important;
+    
+    }  
+    .bg_two{
+        display: none !important;
+
+    }  
+    .landingPageImg{
+        position: static !important;
+    }
+    .landingPageImg img{
+display: none;
+    }
+
+.login_box,
+.create_box
+    {
+        font-size: 12px;
+        display: flex;
+        flex-direction: row-reverse;
+    
+    }
+    .login_box p span,
+.create_box p span{
+    margin-right: 5px;
+}
+    .loginImg ,
+    .createAccount{
+        width: 45px !important;
+        height: 45px !important;
+    }
+    .darkIcon{
+        width: 80px;
+        height: 40px;
+    }
+}

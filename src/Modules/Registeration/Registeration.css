@@ -1,0 +1,30 @@
+.registeration_container .redirect_btn{
+    background-color: #6166EC ;
+    padding: 15px 60px;
+    border-radius: 30px;
+    border: none;
+}
+.registeration_container .row{
+    display: flex;
+    justify-content: flex-end !important;
+}
+.registeration_container .dropdown-menu{
+    width: 100% !important;
+}
+.registeration_container #stages{
+    color: #ededee;
+    display: flex;
+
+}
+.registeration_container select{
+    background: url('../../Resources/images/Polygon 2.png') no-repeat;
+    background-position: left 13px top 17px; 
+    -moz-appearance: none; 
+    -webkit-appearance: none; 
+    appearance: none;
+        padding : 4px 20px;
+        background-size: 4% 13%;
+} 
+.registeration_container select:focus-visible{
+    outline: none !important;
+}

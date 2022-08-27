@@ -1,0 +1,13 @@
+.login_container .redirect_btn{
+    background-color: #F27E0A ;
+    padding: 15px 60px;
+    border-radius: 30px;
+    border:none
+}
+.login_container .row{
+    display: flex;
+    justify-content: flex-end !important;
+}
+.login_container .dropdown-menu{
+    width: 100% !important;
+}

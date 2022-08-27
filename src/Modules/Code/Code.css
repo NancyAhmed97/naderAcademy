@@ -1,0 +1,14 @@
+.code_input{
+    background-color: #EFCC00;
+}
+.charge_btn button{
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 25px;
+color: #fff;
+font-weight: bold;
+padding: 10px 75px;
+}
+.charge_btn button:focus{
+    outline: none;
+}

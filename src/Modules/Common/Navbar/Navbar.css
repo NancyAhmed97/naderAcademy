@@ -1,0 +1,15 @@
+.darkness_container{
+background-image: url('../../../Resources/images/Path 5.png');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+width: 105px;
+height: 45px;
+}
+.darkIcon{
+    width: 120px;
+    height: 50px;
+}
+.login_in_img_container img{
+    width: 38px ;
+    height: 38px ;
+}

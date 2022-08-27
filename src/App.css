@@ -1,0 +1,52 @@
+.App {
+  min-height: 100vh;
+  text-align: right;
+  position: relative;
+}
+.input_container {
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  border-bottom: 1px solid #e5e5e5 !important;
+  padding-bottom: 20px !important;
+  margin-top: 25px;
+}
+input:focus-visible {
+  outline: none !important;
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+.btn-primary:hover {
+  background-color: transparent !important;
+}
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: transparent !important;
+}
+a{
+  text-decoration: none;
+}
+
+.dropdown-toggle
+{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: transparent !important;
+  border-color: #0a58ca;
+  box-shadow:none;
+}
+
+ul li{
+  list-style: none;
+}

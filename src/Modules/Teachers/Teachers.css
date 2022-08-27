@@ -1,0 +1,39 @@
+.teachers_container{
+    border:25px solid #707070 ;
+    width: 75%;
+    border-radius: 25px;
+display: flex;
+flex-direction: column;
+padding-top:25px;
+padding-bottom:25px;
+padding-left: 25px;
+padding-right: 25px;
+margin-bottom: 50px;
+}
+.title{
+    color: red;
+    font-size: 22px;
+    text-align: center;
+}
+.TecherIcon_img{
+width: 85px;
+}
+.teacher_container{
+    border: red solid 3px;
+    background-color: #1A1A21;
+    margin-top: 20px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.teacher_container p{
+    font-weight: bold;
+}
+.teacher_img{
+    width: 100px;
+}
+@media only screen and (max-width: 768px) {
+    .teacher_container{
+    
+        padding: 5px;
+    }
+}

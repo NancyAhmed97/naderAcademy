@@ -1,0 +1,52 @@
+.active{
+    background-color: #EFCC00;
+    color: #383CAA;
+    width: 170px;
+    padding: 7px 12px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 15px;
+
+}
+.box_container{
+    background-color: #B8B8BA;
+    color: #383CAA;
+    width: 170px;
+    padding: 7px 12px;
+    text-align: center;
+cursor: pointer;
+margin-left: 15px;
+}
+.classify_box{
+    background-color: red;
+    color: #fff;
+    width: 170px;
+    padding: 7px 12px;
+    text-align: center;
+cursor: pointer;
+margin-left: 15px;
+border-radius: 7px;
+}
+.data_box{
+    width: 170px;
+    text-align: center;
+margin-left: 15px;
+border-radius: 7px;
+color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+
+.offers_container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.offers_container div div{
+margin-top: 15px;
+    
+}
+
+}

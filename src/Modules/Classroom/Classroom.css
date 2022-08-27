@@ -1,0 +1,38 @@
+.booking_notes{
+    border-radius: 25px;
+    background-color: #DE1212;
+    color: #fff;
+    border: none;
+}
+/* .classrom_container{
+    background-image: url('../../Resources/images/Group\ 38.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+} */
+.classroom{
+    border:1px solid #fff ;
+    margin-top: 45px;
+    width: 95%;
+    border-radius: 25px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top:25px;
+padding-bottom:25px;
+padding-left: 25px;
+padding-right: 25px;
+margin-bottom: 50px;}
+.classRoom_container{
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 100%;
+    padding: 20px 25px;
+    margin-top: 20px;
+}
+.exam_subject{
+    margin: 0 10px ;
+    color: #EFCC00;
+}

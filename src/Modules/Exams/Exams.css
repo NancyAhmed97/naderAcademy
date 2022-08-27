@@ -1,0 +1,43 @@
+.exams_container{
+    border:25px solid #707070 ;
+    width: 75%;
+    border-radius: 25px;
+display: flex;
+flex-direction: column;
+padding-top:25px;
+padding-bottom:25px;
+padding-left: 25px;
+padding-right: 25px;
+margin-bottom: 50px;
+}
+.exams_container .title{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+.exams_container  .examIcon_img{
+width: 85px;
+}
+.exams_container .exam_container{
+    border: red solid 3px;
+    background-color: #1A1A21;
+    margin-top: 20px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.exams_container .exam_container p{
+    font-weight: bold;
+}
+.exams_container .exam_img{
+    width: 100px;
+}
+.exam_container .exam_subject{
+    margin: 0 10px ;
+    color: #EFCC00;
+}
+.exam_container .exam_btn div{
+    background-color: #DE1212 !important;
+    color: #fff;
+    width: 60%;
+    padding: 7px 10px;
+}

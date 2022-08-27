@@ -1,0 +1,23 @@
+.footer_container{
+    background-color: #7D7D7D;
+    
+}
+.footer_container p{
+    color: #F0C52F;
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer_container li a{
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.social_media{
+    display: flex;
+    justify-content: center;
+}
+.social_media img{
+    width: 45px;
+    margin: 25px 5px;
+}

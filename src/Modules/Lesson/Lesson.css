@@ -1,0 +1,53 @@
+.lesson_container{
+    border:10px solid #707070 ;
+    background-color: #707070;
+    width: 75%;
+    border-radius: 25px;
+display: flex;
+flex-direction: column;
+padding-top:15px;
+padding-bottom:15px;
+padding-left: 15px;
+padding-right: 15px;
+margin-bottom: 50px;
+
+}
+/* .img_container{
+    background-color: #000;
+    min-height: 450px;
+    border-radius: 10px;
+    padding: 10px;
+} */
+.nader1{
+    width: 100%;
+}
+.lesson_name_container{
+    /* background-color: #000;
+    margin-right: 25px;
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+    padding-top:25px ;
+    height: 420px; */
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+}
+.desc_lession_container{
+    width: 40%;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 25px 25px;
+    color: #000;
+
+}
+.buying_course{
+    background-color: #9D47B8;
+    color: #fff;
+    padding: 7px 25px;
+}
